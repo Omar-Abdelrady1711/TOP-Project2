@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.hero{
+    background-color: #1F2937;
+    height: 535px;
+}
+header{
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo{
+font-size: 24px;
+color: #F9FAF8;
+font-weight: bold;
+}
+
+.nav{
+display: flex;
+justify-content:space-between;
+gap: 20px;
+
+}
+.nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}

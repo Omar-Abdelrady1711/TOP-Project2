@@ -1,18 +1,33 @@
 *{
+    font-family:'Dosis';
+   box-sizing: border-box;
     margin: 0;
     padding:0;
 }
 .hero{
     background-color: #1F2937;
     height: 535px;
+    h1{
+        color: #F9FAF8;
+        font-size: 48px;
+        font-weight: bolder;
+    }
+    p{
+        color: #E5E7EB;
+        font-size: 18px;
+    }
+
 }
+
 header{
-    padding: 15px;
+    padding: 30px 0 0 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    vertical-align: middle;
 }
 
 .logo{
+width: 20%;
 font-size: 24px;
 color: #F9FAF8;
 font-weight: bold;
@@ -21,11 +36,141 @@ font-weight: bold;
 .nav{
 display: flex;
 justify-content:space-between;
-gap: 20px;
+gap: 80px;
 
 }
 .nav a{
     text-decoration: none;
     color: #E5E7EB;
     font-size: 18px;
+}
+.herobody{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+}
+.heropic img{  
+    width: 100%;
+    height: 280px; 
+}
+.herotxt{
+    text-align: left;
+    display:flex;
+    flex-direction: column;
+    width: 24%;
+
+
+    button{
+        margin:15px 0 0 0;
+        padding:10px ;
+        color:#F9FAF8;
+        width: 30%;
+        height: 40px;
+        border-radius: 8px;
+        border: none;
+        background-color: #4e6ea1;
+        cursor: pointer;
+        transition-duration:  0.3s;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    button:hover{
+        background-color: #3882F6;
+    }
+}
+.bodyinfo{
+    text-align: center;
+    vertical-align: middle;
+    padding: 50px;
+    padding-top: 50px;
+    background-color:white;
+    
+   height: 450px;
+    h1{
+        font-size: 36px;
+        font-weight: bolder;
+        color: #1F2937;
+    }
+}
+.info{
+    margin: 50px 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 90px;
+    text-align: center;
+
+    p{
+        color:#4b5058;
+        font-size: 18px;
+    }
+}
+
+.info img{
+    width: 130px;
+    height: 130px;
+    border:#3882F6;
+    border-radius: 10px;
+}
+.quote{
+    background-color: #E5E7EB;
+    height: 450;
+    padding: 150px 30% 150px 25% ;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+  
+    #author{
+        
+        font-size: 18px;
+        font-weight: bold;
+        margin-left: 80%;
+    }
+  
+}
+footer{
+
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call{
+    color: #F9FAF8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 65%;
+    height: 50%;
+    p{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    #sign{
+        font-weight: normal;
+        font-size: 18px;
+        color: #dfe3eb;
+    }
+    button{
+        color:white;
+        font-size: 15px;
+        width: 90px;
+        height: 35px;
+        border-radius: 8px;
+        border: 2px solid white;
+        background-color: #3882F6;
+        cursor: pointer;
+        transition-duration:  0.1s;
+    }
+    button:hover{
+        border: 4px solid white;
+        font-weight: 700;
+        
+    }
 }
